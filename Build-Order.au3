@@ -1,10 +1,18 @@
+#cs
+ Project name: SC2.Build-Order
+ Author:       Nick "NicoTn" K.
+ Version: 	   0.1
+ Script Function:
+	An easy quick way to look up build orders for Starcraft II.
+#ce
+
 #include <ButtonConstants.au3>
 #include <GUIConstantsEx.au3>
 #include <TabConstants.au3>
 #include <WindowsConstants.au3>
 #include <GuiComboBoxEx.au3>
 
-$gGui = GUICreate("Build-Order", 479, 609, 192, 124)
+$gGui = GUICreate("SC2.Build-Order", 479, 609, 192, 124)
 $gGroup = GUICtrlCreateGroup(" Build-Order ", 8, 8, 465, 593, -1, $WS_EX_TRANSPARENT)
 $gTab = GUICtrlCreateTab(16, 24, 449, 569)
 $tMain = GUICtrlCreateTabItem("Main")
